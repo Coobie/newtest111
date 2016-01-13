@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'refreshes/index'
+
+  get 'refreshes/new'
+
   get 'welcome/hidden'
 
   get 'welcome/index'
